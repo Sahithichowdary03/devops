@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Registration</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f8ff; margin: 0;">
+
+  <form id="registrationForm" 
+        style="border: 1px solid gray; padding: 20px; border-radius: 10px; width: 320px; background-color: white; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    
+    <h3 style="text-align: center; font-size: 24px; color: #333;">Register</h3>
+
+    <input id="name" type="text" placeholder="Name" required 
+    style="width: 100%; padding: 10px; margin: 10px 0; font-size: 16px; border: 1px solid #ccc; border-radius: 5px;"/>
+
+    <input type="email" placeholder="Email" required 
+           style="width: 100%; padding: 10px; margin: 10px 0; font-size: 16px; border: 1px solid #ccc; border-radius: 5px;"/>
+
+    <input type="tel" placeholder="Phone" required 
+           style="width: 100%; padding: 10px; margin: 10px 0; font-size: 16px; border: 1px solid #ccc; border-radius: 5px;"/>
+
+    <button id="button" type="submit" 
+            style="width: 100%; padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+      Submit
+    </button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
